@@ -1,6 +1,16 @@
 <?php
 
 return [ // Ordered by ABC.
+    'adobe' => [
+        'name' => 'Adobe',
+        'developers' => 'https://developer.adobe.com/developer-console/docs/guides/authentication/OAuth/',
+        'icon' => 'icon-adobe',
+        'enabled' => true,
+        'sandbox' => false,
+        'form' => false,
+        'beta' => false,
+        'mock' => false,
+    ],
     'amazon' => [
         'name' => 'Amazon',
         'developers' => 'https://developer.amazon.com/apps-and-games/services-and-apis',
